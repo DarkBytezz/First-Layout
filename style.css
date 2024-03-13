@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    background-color: rgb(26, 26, 26);
+    margin: 0px;
+    padding: 0px;
+}
+
+header.sidebar {
+    background-color: transparent;
+    position: sticky;
+    top: 2px;
+    z-index: 1000;
+    padding-bottom: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+a {
+    border: none;
+    box-shadow: inset -3px -1px 6px 0px;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: rgba(24, 23, 23, 0.89);
+    margin: 10px 15px 0px 5px;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+}
+
+ul :hover {
+    color: rgb(109, 107, 105);
+}
+
+.container1 {
+    border: 2px solid rgb(100, 100, 68);
+    background-color: black;
+    height: 80vh;
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+p{
+    color: aliceblue;
+    font-family: Madimi One;
+    text-align: center;
+    font-size: 25px;
+ }
+
+.box1 {
+    height: 70vh;
+    border: 2px solid rgb(71, 84, 71);
+    background-image: url(Black-Desktop-Wallpaper-HD.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40vw;
+    margin-right: 20px;
+    overflow: auto;
+}
+
+.box2 {
+    height: 70vh;
+    border: 2px solid rgb(71, 84, 71);
+    background-image: url(Black-Desktop-Wallpaper-HD.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40vw;
+    margin-left: 20px;
+    overflow: auto;
+}
+
+.container2 {
+    border: 2px solid rgb(11, 186, 209);
+    height: 20vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.yo{
+    border: none;
+    background-color: rgb(250, 235, 215,0.8);
+   color: rgb(23, 21, 21); 
+    height: 28px;
+    width: 80px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 12px;
+    right: 40px;
+    text-align: center;
+    
+}
+.butt :hover{
+    background-color: rgb(127, 124, 121);
+}
